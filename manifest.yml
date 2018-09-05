@@ -1,0 +1,13 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    disk_quota: 1024M
+    host: JavaSecurity
+    instances: 1
+    memory: 1G
+    name: JavaSecurity
+    path: target/javaSecurity-0.0.1-SNAPSHOT.war
+    services: 
+      - hdi_Bat_db
+
